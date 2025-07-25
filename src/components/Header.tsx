@@ -9,6 +9,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import logo from '../images/FilmyAI_logo.png';
 
 const Header = () => {
   return (
@@ -16,10 +17,10 @@ const Header = () => {
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <div className="w-10 h-10 bg-gradient-to-br from-orange-400 to-orange-600 rounded-lg flex items-center justify-center">
-            <span className="text-black font-bold text-xl">F</span>
+          <div>
+        <img src={logo} alt="FilmyAI Logo" className="w-8 h-8 mr-2" />
           </div>
-          <h1 className="text-xl font-bold text-white">FilmCast</h1>
+          <h1 className="text-xl font-bold text-white">FilmyAI</h1>
         </div>
 
         {/* Search Bar */}

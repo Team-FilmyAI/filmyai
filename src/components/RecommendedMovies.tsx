@@ -17,7 +17,7 @@ const RecommendedMovies = () => {
       location: "New York, NY",
       timeline: "3 months",
       matchScore: 95,
-      description: "A heartwarming story about second chances in the big city.",
+      description: "A heartwarming story about second chances in the city.",
       requirements: ["Age 25-35", "Strong dramatic skills", "NYC local preferred"]
     },
     {
